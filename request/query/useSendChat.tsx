@@ -41,7 +41,7 @@ export default function useSendChat() {
         })
 
         const res = await fetch(
-          `${process.env.VERCEL_URL}/api/chat`,
+          `/api/chat`,
           {
             method: 'POST',
             body: JSON.stringify({
