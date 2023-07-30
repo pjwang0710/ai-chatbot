@@ -9,7 +9,7 @@ const configuration = new Configuration({
 
 const openai = new OpenAIApi(configuration)
 
-export async function POST(req: Request) {
+export default async function POST(req: Request) {
   const json = await req.json()
   const { messages: histories } = json
   const question = histories[histories.length - 1]['content']
