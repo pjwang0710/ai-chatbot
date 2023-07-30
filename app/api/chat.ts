@@ -10,27 +10,21 @@ const configuration = new Configuration({
 const openai = new OpenAIApi(configuration)
 
 export default async function POST(req: Request) {
-//   const json = await req.json()
-//   const { messages: histories } = json
-//   const question = histories[histories.length - 1]['content']
+  const json = await req.json()
+  const { messages: histories } = json
+  const question = histories[histories.length - 1]['content']
 
-//   const messages = [{
-//     'role': 'system',
-//     'content': process.env.PROMPT
-//   }, ...histories.slice(-3, -1), {
-//     'role': 'user',
-//     'content': question
-//   }]
+  const messages = [{
+    'role': 'system',
+    'content': process.env.PROMPT
+  }, ...histories.slice(-3, -1), {
+    'role': 'user',
+    'content': question
+  }]
 
   const res = await openai.createChatCompletion({
     model: 'gpt-3.5-turbo',
-    messages: [{
-        'role': 'system',
-        'content': process.env.PROMPT
-    }, {
-        'role': 'user',
-        'content': '哈囉你好嗎'
-    }],
+    messages,
     temperature: 0.7,
     stream: true
   })
