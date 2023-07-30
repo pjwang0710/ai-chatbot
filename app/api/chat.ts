@@ -16,12 +16,10 @@ export async function POST(req: Request) {
 
   const messages = [{
     'role': 'system',
-    'content': '請你扮演美國人，在台灣教英文的老師'
+    'content': process.env.PROMPT
   }, ...histories.slice(-3, -1), {
     'role': 'user',
-    'content': `
-    請將 ${question} 翻譯成英文。
-    `
+    'content': question
   }]
 
   const res = await openai.createChatCompletion({
