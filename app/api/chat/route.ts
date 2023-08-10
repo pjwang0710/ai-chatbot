@@ -5,10 +5,7 @@ const configuration = new Configuration({
   apiKey: process.env.OPENAI_API_KEY
 })
 
-export const config = {
-  runtime: 'edge',
-};
-
+export const runtime = 'edge'
 const openai = new OpenAIApi(configuration)
 
 export async function POST(req: Request) {
