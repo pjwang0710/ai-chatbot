@@ -29,7 +29,7 @@
 
 You can deploy your own version of the AI Chatbot to Vercel with one click:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fpjwang0710%2Fai-chatbot&env=OPENAI_API_KEY,PROMPT,NEXT_PUBLIC_APP_NAME,NEXT_PUBLIC_LOGO_URL,NEXT_PUBLIC_EMPTY_SCREEN_TITLE,NEXT_PUBLIC_EMPTY_SCREEN_DESC&project-name=ai-chatbot&repository-name=my-ai-chatbot&demo-title=AI%20%E8%81%8A%E5%A4%A9%E6%A9%9F%E5%99%A8%E4%BA%BA&demo-description=AI%20%E8%81%8A%E5%A4%A9%E6%A9%9F%E5%99%A8%E4%BA%BA)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fpjwang0710%2Fai-chatbot&env=OPENAI_API_KEY,PROMPT,NEXT_PUBLIC_APP_NAME,NEXT_PUBLIC_LOGO_URL,NEXT_PUBLIC_EMPTY_SCREEN_TITLE,NEXT_PUBLIC_EMPTY_SCREEN_DESC&project-name=ai-chatbot&repository-name=my-ai-chatbot&demo-title=AI%20%E8%81%8A%E5%A4%A9%E6%A9%9F%E5%99%A8%E4%BA%BA&demo-description=AI%20%E8%81%8A%E5%A4%A9%E6%A9%9F%E5%99%A8%E4%BA%BA&NEXT_PUBLIC_APP_NAME=123456)
 
 ## Running locally
 
