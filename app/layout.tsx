@@ -8,10 +8,10 @@ import { Header } from '@/components/header'
 
 export const metadata: Metadata = {
   title: {
-    default: `${process.env.NEXT_PUBLIC_APP_NAME}`,
-    template: `%s - ${process.env.NEXT_PUBLIC_APP_NAME}`
+    default: 'ExplainThis AI 聊天機器人',
+    template: '%s - ExplainThis AI 聊天機器人'
   },
-  description: `${process.env.NEXT_PUBLIC_APP_NAME}`,
+  description: 'ExplainThis AI 聊天機器人',
   themeColor: [
     { media: '(prefers-color-scheme: light)', color: 'white' },
     { media: '(prefers-color-scheme: dark)', color: 'black' }

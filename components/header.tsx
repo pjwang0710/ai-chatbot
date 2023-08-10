@@ -7,10 +7,10 @@ export async function Header() {
     <header className="sticky top-0 z-50 flex h-16 w-full shrink-0 items-center justify-between border-b bg-gradient-to-b from-background/10 via-background/50 to-background/80 px-4 backdrop-blur-xl">
       <div className="flex items-center space-x-3">
         <div className="relative flex h-8 w-8 items-center">
-          <img src={process.env.NEXT_PUBLIC_LOGO_URL} alt="logo" />
+          <img src="https://explainthis.s3-ap-northeast-1.amazonaws.com/4aa043d5ade843f39fb5fc1de2f3ac63.png" alt="logo" />
         </div>
         <div className="text-lg font-medium">
-          {process.env.NEXT_PUBLIC_APP_NAME}
+        ExplainThis AI 聊天機器人
         </div>
       </div>
       <div className="flex items-center justify-end space-x-2">
